@@ -24,7 +24,7 @@
     "width": 200,
 
     "//": "縦幅",
-    "height": 300,
+    "height": 200,
 
     "//": "バックカメラの利用を設定(フロントカメラは user )",
     "facingMode": "environment",
