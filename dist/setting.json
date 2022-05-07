@@ -21,10 +21,10 @@
     "frameRate": 30,
     
     "//": "横幅",
-    "width": 200,
+    "width": 640,
 
     "//": "縦幅",
-    "height": 200,
+    "height": 480,
 
     "//": "バックカメラの利用を設定(フロントカメラは user )",
     "facingMode": "environment",
