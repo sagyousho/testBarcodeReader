@@ -6,7 +6,7 @@
     "//": "カメラ映像を表示するHTML要素設定",
     "target": "barcord-scan-area",
 
-    "decodeBarCodeRate": 5,
+    "decodeBarCodeRate": 3,
 
     "//": "検出が成功したときの遅延時間",
     "successTimeout": 500,
