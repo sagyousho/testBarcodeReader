@@ -3,7 +3,7 @@
     "//": "スキャン方式(default:LiveStream)",
     "type": "LiveStream",
 
-    "//": "カメラ映像を表示するHTML要素設定",
+    "//": "カメラ映像を表示するHTML要素名",
     "target": "barcord-scan-area",
 
     "decodeBarCodeRate": 5,
@@ -29,7 +29,7 @@
     "//": "バックカメラの利用を設定(フロントカメラは user )",
     "facingMode": "environment",
 
-    "//": "スキャン精度 1秒あたりの最大スキャン回数",
+    "//": "スキャン頻度 1秒あたりの最大スキャン回数",
     "frequency": 10,
     
     "//": "スキャンしない範囲",
@@ -52,10 +52,10 @@
     "//": "バーコードの位置を特定する機能",
     "locate": true,
     "locator": {
-      "//": "バーコードの位置を特定する機能",
+      "//": "入力をスケールダウン:trueでOK",
       "halfSample": true,
 
-      "//": "バーコード読み取りサイズ(x-small,small,medium,large,x-large)",
+      "//": "読み取るバーコードサイズ(x-small,small,medium,large,x-large)",
       "patchSize": "medium"
     },
     "debug": false,
