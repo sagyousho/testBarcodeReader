@@ -7,37 +7,36 @@
    <title>バーコードリーダーテスト</title>
    <script type="module" src="dist/main.js"></script>
 </head>
-      <div>
-         <h3 id="result-message" style="color: red;"></h3>
-      </div>
 <style>
    #barcord-scan-area.viewport {
       float: left;
       width:320px;
       height: 320px;
-      }
-
+   }
+   
    #barcord-scan-area.viewport canvas, video {
       float: left;
       width: 320px;
       height: 320px;
    }
-
+   
    
    .drawingBuffer {
       position: absolute;
       top: 160;
       left: 0;
    }
-</style>
+   </style>
 <body>
    <h3>バーコードリーダー テスト</h3>
-   <!-- <div>
+   <div>
+      <h3 id="result-message" style="color: red;"></h3>
+   </div>
+   <div>
       <div id="not-scan-top"></div>
       <div id="barcord-scan-area" class="viewport"></div>
       <div id="not-scan-botom"></div>
-   </div> -->
-      <div id="barcord-scan-area" class="viewport">
+   </div>
    <div>
 
       <div>
