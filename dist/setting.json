@@ -88,9 +88,6 @@
     "//": "自動停止時間(秒設定)",
     "scanTimeOut": 180,
 
-    "//": "検知判定回数",
-    "checkCount": 2,
-
   "API" : {
     "humanResource":{
       "url" : "http://127.0.0.1:8000/api/resource/barcode/"

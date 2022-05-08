@@ -10,8 +10,17 @@
       <div>
          <h3 id="result-message" style="color: red;"></h3>
       </div>
-<style>
-  
+<!-- <style>
+   #barcord-scan-area.viewport {
+      width:640px;
+      height: 480px;
+      }
+
+   #barcord-scan-area.viewport canvas, video {
+      /* float: left; */
+      width:640px;
+      height: 480px;
+   }
 
    
    .drawingBuffer {
@@ -19,7 +28,7 @@
       top: 0;
       left: 0;
    }
-</style>
+</style> -->
 <body>
    <h3>バーコードリーダー テスト</h3>
    <!-- <div>
@@ -27,10 +36,7 @@
       <div id="barcord-scan-area" class="viewport"></div>
       <div id="not-scan-botom"></div>
    </div> -->
-      <div id="interactive" class="viewport">
-         <video id="barcord-scan-area" autoplay="true" preload="auto" src="" muted="true" playsinline="true"></video>
-         <canvas class="drawingBuffer"></canvas>
-      </div>
+      <div id="barcord-scan-area" class="viewport">
    <div>
 
       <div>
