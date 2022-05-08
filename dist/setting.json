@@ -56,7 +56,7 @@
       "halfSample": true,
 
       "//": "バーコード読み取りサイズ(x-small,small,medium,large,x-large)",
-      "patchSize": "x-small"
+      "patchSize": "medium"
     },
     "debug": false,
 
